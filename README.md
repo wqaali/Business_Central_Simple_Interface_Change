@@ -4,7 +4,9 @@
 2:In Visual Studio Code's Explorer pane, right-click and create a new file named Customer Card Ext.al as committed in this respository.
 
 3:Add Table Extension Code and pageextesion as well
-    //Create and customer column for customer table which will hold Country information.
+
+    Create and customer column for customer table which will hold Country information.
+    
     tableextension 50100 "Customer Share Details" extends Customer
     {
         fields
@@ -30,6 +32,8 @@
             }
         }
     }
+    
   4:Ctrl+Shift+b to build your project if it successfully built then run your extension ctrl_shift_p
+  
   5:In business central open customer list and select any customer customer column should apear in generat tab of customer Card.
   
