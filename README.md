@@ -1,6 +1,8 @@
 # Business_Central_Simple_Interface_Change
 1:Open your AL project folder in Visual Studio Code.
+
 2:In Visual Studio Code's Explorer pane, right-click and create a new file named Customer Card Ext.al as committed in this respository.
+
 3:Add Table Extension Code and pageextesion as well
     //Create and customer column for customer table which will hold Country information.
     tableextension 50100 "Customer Share Details" extends Customer
